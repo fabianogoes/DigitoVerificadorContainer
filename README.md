@@ -22,3 +22,22 @@
 | E = 15  | J = 20 | O = 26 | T = 31 | Y = 37 |
 |         |        |        |        | Z = 38 |
 
+> Os números dos contêineres não são
+> aleatórios ou em ordem crescente. Alguns
+> armadores adotam seus números exclusivos,
+> porém a maioria utiliza a numeração
+> estabelecida pela ISO.
+
+| PREFIXO | Nº | Multiplicar | Índice |   | Total |
+|---------|----|-------------|--------|---|-------|
+|    G    | 17 |      X      |    1   | = | 17    |
+|    S    | 30 |      X      |    2   | = | 60    | 
+|    T    | 31 |      X      |    4   | = | 124   |
+|    U    | 32 |      X      |    8   | = | 256   |
+|         | 2  |      X      |   16   | = | 32    |
+|         | 2  |      X      |   32   | = | 64    |
+|         | 3  |      X      |   64   | = | 192   |
+|         | 2  |      X      |  128   | = | 256   |
+|         | 8  |      X      |  256   | = | 2.048 |
+|         | 3  |      X      |  512   | = | 1.536 |
+
