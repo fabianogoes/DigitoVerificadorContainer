@@ -4,5 +4,9 @@
   "version": "1.0.0",
   "engines": {
     "node": "6.9.5"
+  },
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
   }
 }
