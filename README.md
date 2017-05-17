@@ -31,7 +31,7 @@
 | PREFIXO | Nº | Multiplicar | Índice |   | Total |
 |---------|----|-------------|--------|---|-------|
 |    G    | 17 |      X      |    1   | = | 17    |
-|    S    | 30 |      X      |    2   | = | 60    | 
+|    S    | 30 |      X      |    2   | = | 60    |
 |    T    | 31 |      X      |    4   | = | 124   |
 |    U    | 32 |      X      |    8   | = | 256   |
 |         | 2  |      X      |   16   | = | 32    |
@@ -40,4 +40,32 @@
 |         | 2  |      X      |  128   | = | 256   |
 |         | 8  |      X      |  256   | = | 2.048 |
 |         | 3  |      X      |  512   | = | 1.536 |
+|         |    |             |  Soma  | = | 4.585 |
+
+> Verifique: GSTU 223283 9
+> Dígito = 9 
+
+```
+Total: 4.585 ÷ 11 = 416
+resto = 9
+Nove é o dígito de controle.
+```
+[Reference](http://www.ceconport.com.br/site/images/digito%20verificador-ceconport.pdf)
+
+---
+
+License
+-------
+[![MIT][0]][1]   
+Licensed under an [MIT-style permissive license][0].   
+
+Open Source
+-----------
+[![Open Source][2]][3]
+
+[0]: https://raw.githubusercontent.com/fabianogoes/Fico/master/src/main/resources/static/img/mit-license.png
+[1]: https://raw.githubusercontent.com/fabianogoes/Fico/master/LICENSE
+[2]: https://raw.githubusercontent.com/fabianogoes/Fico/master/src/main/resources/static/img/opensource-iniciative.png
+[3]: https://en.wikipedia.org/wiki/Open_Source_Initiative
+
 
