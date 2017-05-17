@@ -1,0 +1,8 @@
+{
+  "name": "containerid",
+  "description": "Calculate Container id",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.9.5"
+  }
+}
