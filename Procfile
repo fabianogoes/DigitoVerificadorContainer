@@ -1,1 +1,1 @@
-worker: http-server
+web: harp server --port $PORT
