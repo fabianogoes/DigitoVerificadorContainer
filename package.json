@@ -1,7 +1,7 @@
 {
   "name": "containerid",
   "description": "Calculate Container id",
-  "version": "1.0.0",
+  "version": "2017.05.18",
   "license": "MIT",
   "dependencies": {
     "harp": "*"
