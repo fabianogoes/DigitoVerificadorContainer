@@ -80,10 +80,15 @@ function Container() {
             2. Multiplicar os números ao dobro do índice.
             3. Somar os valores obtidos na multiplicação.
             4. Dividir o resultado por 11.
-            5. Não dividir a sobra.
-            6. A sobra é o dígito de controle.
-            7. A sobra será inferior a 11.
-            8. Montagem da Tabela.
+               Soma
+               ---- = ?
+                11
+            > Se ignora la parte decimal
+            > Se multiplica por 11 a parte sem fração
+               SomaDivididoPor11 * 11 = ?
+            > Subtrair a Soma principal pela SomaDivididoPor11
+              Soma - SomaDivididoPor11 = Resultado 
+            > Se o Resultado for 10 o verificador é 0 se não é o próprio Resultado.
         ******************************************************************/      
 
         var codigo = value.slice(0, value.length-1);
@@ -134,14 +139,23 @@ function Container() {
         //******************************************************************
         var totalMult11 = total / 11;
 
+        //
+        // Se ignora la parte decimal
+        //
+        var totalSemFracao = String(totalMult11).split(".")[0];
+        var totalX = totalSemFracao * 11;
+        var digitoCalc = total - totalX; 
+        digitoCalc = parseInt(digitoCalc) == 10 ? 0 : parseInt(digitoCalc);
+        console.log("digitoCalc = "+digitoCalc);
+
+
         //******************************************************************
         // 5. Não dividir a sobra.
         // 6. A sobra é o dígito de controle.
         // 7. A sobra será inferior a 11.
         //******************************************************************
-        var restoMult11 = total % 11;
-
+        //var restoMult11 = total % 11;
         var digito = value.slice(value.length-1, value.length);
-        return parseInt(digito) == restoMult11;        
+        return parseInt(digito) == digitoCalc;        
     }
 }
