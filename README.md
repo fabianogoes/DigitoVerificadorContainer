@@ -50,7 +50,11 @@ Total: 4.585 ÷ 11 = 416
 resto = 9
 Nove é o dígito de controle.
 ```
-[Reference](http://www.ceconport.com.br/site/images/digito%20verificador-ceconport.pdf)
+### Reference
+-------------   
+
+* [http://www.ceconport.com.br/site/images/digito%20verificador-ceconport.pdf](http://www.ceconport.com.br/site/images/digito%20verificador-ceconport.pdf)
+* [https://es.wikipedia.org/wiki/Contenedor](https://es.wikipedia.org/wiki/Contenedor)
 
 ---
 
